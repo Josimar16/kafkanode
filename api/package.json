@@ -1,0 +1,19 @@
+{
+  "name": "kafkanode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Josimar16/kafkanode.git",
+  "author": "Josimar16 <josimarjr479@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
