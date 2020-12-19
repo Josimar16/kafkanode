@@ -9,7 +9,7 @@ const app = express();
  */
 const kafka = new Kafka({
   clientId: 'api',
-  brokers: ['kafka:9092']
+  brokers: ['localhost:9092']
 });
 
 const producer = kafka.producer();
@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 app.use(routes);
 
 async function run() {
-  // await producer.connect()
+  await producer.connect()
 
   app.listen(3333)
 }
