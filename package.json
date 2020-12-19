@@ -1,0 +1,8 @@
+{
+  "name": "kafkanode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Josimar16/kafkanode.git",
+  "author": "Josimar16 <josimarjr479@gmail.com>",
+  "license": "MIT"
+}
